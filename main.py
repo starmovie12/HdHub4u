@@ -25,7 +25,7 @@ def extract_hubcloud(url):
 # --- HOME PAGE (Taaki pata chale website chal rahi hai) ---
 @app.route('/')
 def home():
-    return "HubDrive Solver API is Running! 🚀"
+    return "HubDrive Solver API is Running! ðŸš€"
 
 # --- API ENDPOINT ---
 @app.route('/solve', methods=['GET'])
