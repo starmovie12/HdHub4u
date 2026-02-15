@@ -1,3 +1,6 @@
 flask
-requests
+flask-cors
 gunicorn
+cloudscraper
+beautifulsoup4
+requests
