@@ -6,5 +6,5 @@ COPY . /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Port 10000 zaroori hai Render ke liye
-CMD ["gunicorn", "main:app", "--bind", "0.0.0.0:10000"]
+# Gunicorn ke through chalayenge taaki production me fast chale
+CMD ["gunicorn", "main:app", "--bind", "0.0.0.0:10000", "--timeout", "120"]
